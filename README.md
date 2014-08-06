@@ -3,7 +3,8 @@ RACSwift
 
 make easy use rac in swift
 
-[EasyIOS](https://github.com/zhuchaowe/EasyIOS)
+* [EasyIOS](https://github.com/zhuchaowe/EasyIOS)
+* [ReactiveCocoa](https://github.com/zhuchaowe/ReactiveCocoa)
 
 ####补丁:解决Swift中取消OC的复杂弘定义导致的ReactiveCocoa无法在Swift中使用的问题
 
