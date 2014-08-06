@@ -28,7 +28,7 @@ ___
     
 `RACObserve` In `Objective－C`:
 	
-	[RACObserve(self.demoSceneModel.goodsListRequest, state) //监控 网络请求的状态
+	[RACObserve(self.collectionView,"page")
      subscribeNext:^(NSString *text) {
      	NSLog(@"%@",text);
      }];
