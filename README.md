@@ -5,6 +5,7 @@ make easy use rac in swift
 
 ### 1.添加 RACSwift.swift 到swift 项目
 ### 2.替换 RACCommand.m、RACSignal+Operations.h、RACSignal+Operations.m 三个文件
+### 3.设置`Objective-C Bridging Header`为`${PODS_ROOT}/Headers/EasyIOS/swift-bridge.h`
 
 
 
