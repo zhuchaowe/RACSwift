@@ -28,7 +28,7 @@ ___
     
 `RACObserve` In `Objective－C`:
 	
-	[RACObserve(self.collectionView,"page")
+	[RACObserve(self.collectionView,page)
      subscribeNext:^(NSString *text) {
      	NSLog(@"%@",text);
      }];
