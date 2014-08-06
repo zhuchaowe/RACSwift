@@ -15,7 +15,7 @@ make easy use rac in swift
 
 In `Swift`:
 
-	RAC(self.collectionView,"page") <= RACObserve(self.collectionView,"page");
+	RAC(self.collectionView,"page") <= RACObserve(self.collectionView,"page")
 	
 ___
     
@@ -24,7 +24,7 @@ ___
 	[RACObserve(self.demoSceneModel.goodsListRequest, state) //监控 网络请求的状态
      subscribeNext:^(NSString *text) {
      	NSLog(@"%@",text);
-     }
+     }];
 
 In `Swift`:
 
