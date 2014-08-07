@@ -52,5 +52,5 @@ In `Swift`:
         }
         .subscribeNextAs{
             (text:String) -> () in
-            println(countElements(text))
+            println(text)
         }        
