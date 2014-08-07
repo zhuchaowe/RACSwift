@@ -23,6 +23,7 @@ ___
 In `Swift`:
 
 	RAC(self.collectionView,"page") <= RACObserve(self.collectionView,"page")
+	RACObserve(self.collectionView,"page") => RAC(self.collectionView,"page")
 	
 ___
     
