@@ -28,15 +28,29 @@ ___
     
 `RACObserve` In `Objective－C`:
 	
-	[RACObserve(self.collectionView,page)
-     subscribeNext:^(NSString *text) {
-     	NSLog(@"%@",text);
-     }];
+        [[[RACObserve(self.collectionView, page)
+         map:^NSString*(NSNumber* newPage) {
+             return @"123";
+         }]
+         filter:^BOOL(NSString* newPage) {
+             return false;
+         }]
+         subscribeNext:^(NSString* text) {
+             NSLog(@"%@",text);
+         }];
 
 In `Swift`:
 
-       RACObserve(self.collectionView,"page")
-       .subscribeNextAs{
-            (text:String) -> () in
-            println(text)
+        RACObserve(self.collectionView,"page")
+        .mapAs{
+            (newpage:NSNumber) -> NSString in
+            return "123";
         }
+        .filterAs{
+            (newpage:NSString) -> Bool in
+            return false;
+        }
+        .subscribeNextAs{
+            (text:String) -> () in
+            println(countElements(text))
+        }        

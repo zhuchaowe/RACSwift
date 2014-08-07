@@ -46,4 +46,20 @@ extension RACSignal {
             nextClosure(nextAsT)
         }
     }
+    
+    func filterAs<T>(nextClosure:(T) -> Bool) -> (RACSignal) {
+        return self.filter {
+            (next: AnyObject!) -> Bool in
+            let nextAsT = next as T
+            return nextClosure(nextAsT)
+        }
+    }
+    
+    func mapAs<T>(nextClosure:(T) -> AnyObject!) -> (RACSignal) {
+        return self.map {
+            (next: AnyObject!) -> AnyObject! in
+            let nextAsT = next as T
+            return nextClosure(nextAsT)
+        }
+    }
 }
