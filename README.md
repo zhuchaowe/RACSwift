@@ -44,11 +44,11 @@ In `Swift`:
         RACObserve(self.collectionView,"page")
         .mapAs{
             (newpage:NSNumber) -> NSString in
-            return "123";
+            return "123"
         }
         .filterAs{
             (newpage:NSString) -> Bool in
-            return false;
+            return false
         }
         .subscribeNextAs{
             (text:String) -> () in
