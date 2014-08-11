@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2DAD83DB-E330-4B3B-8056-1A4B8043FA72</string>
+	<key>IDESourceControlProjectName</key>
+	<string>here</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F108C8BA64F335CD5C996AE37A8A11FDF48E8007</key>
+		<string>https://github.com/zhuchaowe/RACSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demoForRACSwift/here.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F108C8BA64F335CD5C996AE37A8A11FDF48E8007</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhuchaowe/RACSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F108C8BA64F335CD5C996AE37A8A11FDF48E8007</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F108C8BA64F335CD5C996AE37A8A11FDF48E8007</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RACSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

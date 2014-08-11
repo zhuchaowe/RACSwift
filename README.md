@@ -12,6 +12,14 @@ make easy use rac in swift
 * 2.替换 `RACCommand.m`、`RACSignal+Operations.h`、`RACSignal+Operations.m` 三个文件
 * 3.设置`Objective-C Bridging Header`为`${PODS_ROOT}/Headers/EasyIOS/swift-bridge.h`
 
+###demoForRACSwift
+
+这个demo基于beta5里面存在一个`swift`访问`objc`的`NSDictionary`属性时出现crash问题，暂时没用找到解决方案，如果有人可以帮忙，不胜感激。
+
+	位置在DemoSceneModel.swift文件里：
+	
+	var output =  self.goodsListRequest.output as NSDictionary;
+                
 ___
 
 ###Usage
