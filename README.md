@@ -14,7 +14,7 @@ make easy use rac in swift
 
 ###demoForRACSwift
 
-这个demo基于beta5里面存在一个`swift`访问`objc`的`NSDictionary`属性时出现crash问题，暂时没用找到解决方案，如果有人可以帮忙，不胜感激。
+这个demo基于beta5，里面存在一个`swift`访问`objc`的`NSDictionary`属性时出现crash问题，暂时没用找到解决方案，如果有人可以帮忙，不胜感激。
 
 	位置在DemoSceneModel.swift文件里：
 	
